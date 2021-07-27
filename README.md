@@ -6,5 +6,5 @@ The dataset of E-commerce Product Images consisting of 100k labelled product ima
 to 42 categories. Available at: https://www.kaggle.com/c/shopee-product-detection-open/data
 
 #### Models used
-- VGG-16
-- Siamese Neural Network with Contrastive loss
+- VGG-16 : Used to extract features, which are then used to classify images and also compare cosine similarity between the images.
+- Siamese Neural Network with Contrastive loss : Used to compare the similarity between two images and retrieve the top 10 similar images to a given image.
